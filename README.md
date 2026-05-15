@@ -9,11 +9,14 @@ The purpose of this assignment is to demonstrate iteration statements and simple
 
 You are going to create a stand-alone program that does the following. The file A contains integers. From the values ​​in A, you are going to obtain the average, maximum, and minimum values.
 
-Run in terminal
+Compiling with g++
 
-    g++ - test2 test2.cpp
+    g++ -o test2 test2.cpp
     g++ -o test test12.cpp
 
+Then run
+    ./test2
+    ./test
 
 The Test2.cpp program calculation from values.txt 
 
