@@ -1,0 +1,6 @@
+ Skriv här! 
+ Max: 991
+ Min: -8
+ Antal siffror: 9811
+ Summan: 4799079
+ Medelvärde: 489.153
