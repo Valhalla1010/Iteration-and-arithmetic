@@ -1,5 +1,8 @@
-test12	:	test12.o
-	g++ -o test test12.o
-test12.o	:	test12.cpp
-	g++ -c test12.cpp
-
+programmet:	funktion.cpp sortering.cpp sortering.h mergeSort.cpp mergeSort.h slutSort.cpp slutSort.h
+	g++ -o programmet funktion.cpp sortering.cpp mergeSort.cpp slutSort.cpp
+	
+run:	programmet
+	./programmet
+	
+clean:
+	rm programmet		
